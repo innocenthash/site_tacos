@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(112, 194, 228);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.contenu{
+background-color: rgb(255, 255, 255) ;
+padding: 40px;
+margin-left: 10%;
+margin-right: 10%;
+min-width: 425px;
+box-shadow: 0px 0px 8px 10px rgba(73, 58, 58, 0.1);
+}
+h1.recet_tacos{
+text-align: center;
+
+}
+p.cont_tacos{
+/* background-color: rgb(2, 137, 255); */
+text-align: center;
+max-width: 400px;
+display: inline-block;
+}
+div.cont_recet{
+text-align:center;
+}
+p.mes_rec{
+text-align: center;
+background-color: black;
+color: aliceblue;
+display: inline-block;
+margin-bottom: 0px;
+padding: 20px;
+font-weight: bold;
+}
+div.mes_rec{
+
+text-align: center;
+margin-bottom: -30px;
+}
+div.separateur{
+width: 100px;
+height: 1px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+
+}
+.img_tacos{
+text-align: center;
+width: 100%;
+max-height: 400px;
+object-fit: cover;
+min-height: 100px;
+
+}
+.tab_img{
+
+position: relative;
+}
+.tab_tacos{
+position: absolute;
+bottom: 0;
+background-color: rgb(47, 98, 135);
+width: 100%;
+opacity: 50%;
+height: 100px;
+color: rgb(255, 255, 255);
+}
+table.tab_tacos td{
+text-align: center;
+vertical-align: top;
+}
+div.col1{
+
+width: 50%;
+display: inline-block;
+}
+div.col2{
+float: right;
+width: 48%;
+}
+div.col1 h1{
+text-align: center;
+text-transform: uppercase;
+border-bottom: 5px solid rgb(75, 151, 163);
+    }
+div.col2 h1{
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid rgb(75, 151, 163);
+    }
+
+div.col1 ul p{
+    text-align: center;
+border: 1px solid rgb(94, 94, 94);
+padding: 10px;
+       
+}
+table p.num{
+    background-color: rgb(75, 151, 163) ;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 50%;
+   margin: 0;
+}
+table.preparation tr td {
+    vertical-align: top;
+    
+}
+table.preparation tr  {
+    height: 100px;
+    
+    /* background-color: brown; */
+}
+*{
+    overflow: auto;
+}
